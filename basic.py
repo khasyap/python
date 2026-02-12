@@ -74,6 +74,39 @@ my_tuple[0]="T"
 print(my_tuple)
 
 
+Print("-------------------String------------------------")
+str='hello'
+print(str)
+str1="world"
+print(str1)
+str2="""Python"""
+print(str2)
+print(str+str1)
+print(str[0])
+del str
+str="Hello World"
+print(str[6:11])
+print("world" in str)
+print("Hello" not in str)
+
+print("-----------------------Functions------------------")
+def greet(name):
+    print("Hello"+name)
+greet("World")
+
+def add(num1,num2):
+    sum=num1+num2
+    return sum
+print(add(2,3))
+
+global_var=10
+def function():
+    local_var=20
+    print(global_var)
+    print(local_var)
+function()
+print(global_var)
+print(local_var)
 
 
 
