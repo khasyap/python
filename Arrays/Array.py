@@ -1,1 +1,11 @@
-
+arr=[10,30,20,50]
+print(arr)
+print(arr[1])
+print(arr[1:4])
+print(arr[::-1])
+arr.pop()
+print(arr)
+arr.append(40)
+print(arr)
+arr.insert(2,60)
+print(arr)
