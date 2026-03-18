@@ -1,0 +1,13 @@
+set={10,20,10,30,50}
+print(set)
+print(set.pop())
+print(set)
+set.remove(50)
+print(set)
+set.add(40)
+print(set)
+set.discard(40)
+print(set)
+print(set.copy)
+print(set)
+print(set.clear)
