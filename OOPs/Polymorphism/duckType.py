@@ -6,7 +6,7 @@ class MyEditor:
     def execute(self):
         print("Spell Check")
         print("Convention check")
-        print("Compling")
+        print("Compiling")
         print("Running")
 class Laptop:
     def code(self,ide):
